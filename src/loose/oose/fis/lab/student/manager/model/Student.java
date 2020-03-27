@@ -40,6 +40,38 @@ public class Student {
     public int hashCode() {
         return Objects.hash(firstName, lastName, age, meanGrade);
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getMeanGrade() {
+        return meanGrade;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setMeanGrade(double meanGrade) {
+        this.meanGrade = meanGrade;
+    }
 }
 
 
